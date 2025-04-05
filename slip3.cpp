@@ -14,7 +14,8 @@ double volume(double radius,bool isSphere){
     return (4.0/3.0)*3.14*radius*radius*radius;
 }
 
-int main (){
+int main ()
+{
     double side,height,radius;
     cout<<"enter side lenght of cub"<<endl;
     cin>>side;
